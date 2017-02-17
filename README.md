@@ -8,7 +8,7 @@ There are two main ways to document on Github. They are:
 * Create a README.md
 * Create a Wiki
 
-But wait! That's stuff we know right? As users of Github, we check out READMEs and Wikis all the time. But how do we make it look readable for the public (like this one)?
+But wait! That's stuff we know right? As users of Github, we check out READMEs and Wikis all the time. But how do we make it look readable for the public (like this one)? And then how do we turn it into a public facing website for the every day non-github user?
 
 ## Github Markdown
 
@@ -37,4 +37,8 @@ We can populate these with all kinds of fun features.
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 Yeah, that's Yaktocat. I don't know his relation to Octocat, but he seems pretty sweet.
+
+## Github Pages
+
+So you have this super cool README.md file and maybe you have a repo that you want to be able to throw some web based documentation together for. The perfect solution is a Github Page. Click [here](https://rboddy.github.io) to see the page I created for these Docs. How do you do this? Well you can find the easy 3 step solution [here](https://pages.github.com/). That covers most of what you need to know. If you want to give an existing repo a custom domain to host your README.md file, just add a custom domain to an existing repo by going to "Settings" and finding the custom domain input field. It's that easy! I know, super cool stuff.
 
