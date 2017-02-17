@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# This is Documentation on Github
+> "Can you look in to how they do documentation on Github. Internally Confluence is a great tool, but I want to know how all these Github repos have this awesome public facing documentation."
+> -Ray Flowers 2017
 
-You can use the [editor on GitHub](https://github.com/rboddy/rboddy.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## So How do we Document on Github?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+There are two main ways to document on Github. They are:
+* Create a README.md
+* Create a Wiki
 
-### Markdown
+But wait! That's stuff we know right? As users of Github, we check out READMEs and Wikis all the time. But how do we make it look readable for the public (like this one)?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Github Markdown
 
-```markdown
-Syntax highlighted code block
+Oh sick, there's markdown. I can dig it. I like style. Click [here](https://guides.github.com/features/mastering-markdown/) to learn all about that markdown. It's pretty generic stuff. It does, however, offer some pretty neat features for documentation. Such as:
 
-# Header 1
-## Header 2
-### Header 3
+### Syntax Highlighting:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 ```
+That's pretty neat.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Task Lists:
 
-### Jekyll Themes
+- [x] This is a complete item
+- [ ] This is an incomplete item
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rboddy/rboddy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+We can populate these with all kinds of fun features.
 
-### Support or Contact
+### Images:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+Yeah, that's Yaktocat. I don't know his relation to Octocat, but he seems pretty sweet.
+
